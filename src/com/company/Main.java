@@ -3,9 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        String str0 = "This is a first row";
-        String str1 = "This is a second row";
-        String str2 = "This is a third row";
+        String str0 = "First row";
+        String str1 = "Second row";
+        String str2 = "Third row";
         String[] array  = {str0, str1, str2};
         sort(array);
         print(array);
